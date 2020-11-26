@@ -1,4 +1,4 @@
-﻿
+
 namespace StackAndQueue
 {
     partial class Form1
@@ -36,6 +36,7 @@ namespace StackAndQueue
         }
 
         #endregion
+        //测试
     }
 }
 
