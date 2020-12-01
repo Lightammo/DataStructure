@@ -1,0 +1,10 @@
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\bin\Debug\StackAndQueue.exe.config
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\bin\Debug\StackAndQueue.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\bin\Debug\StackAndQueue.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.csprojAssemblyReference.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.Form1.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.Properties.Resources.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.csproj.GenerateResource.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week3\StackAndQueue\StackAndQueue\obj\Debug\StackAndQueue.pdb
