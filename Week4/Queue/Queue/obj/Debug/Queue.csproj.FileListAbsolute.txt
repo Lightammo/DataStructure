@@ -1,0 +1,5 @@
+C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.Form1.resources
+C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
+C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
