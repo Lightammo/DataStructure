@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Queue
 {
-    class CQueue
+    class CQueue<Type>
     {
         private int front, rear;   //定义队头和队尾
         private Type[] elems;      //队列元素

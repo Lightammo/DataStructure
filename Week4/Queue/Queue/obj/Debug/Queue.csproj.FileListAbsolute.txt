@@ -3,3 +3,8 @@ C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.Form1.resources
 C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
 C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
 C:\Users\78633\source\repos\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.Form1.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache

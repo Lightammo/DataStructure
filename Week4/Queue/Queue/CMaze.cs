@@ -48,6 +48,13 @@ namespace Queue
             return (data);
         }
         //自己写Getelems,Setelems
+        public int Getelems(int cs)
+        {
+
+            return pre;
+        }
+
+
         public int ShortPath(int cs)
         {
             //初始化位置坐标增量

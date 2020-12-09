@@ -29,104 +29,113 @@ namespace Queue
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.bt_openfile_Click = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.bt_createmaze_Click = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pb_maze = new System.Windows.Forms.PictureBox();
+            this.pb_mazepath = new System.Windows.Forms.PictureBox();
+            this.bt_openfile = new System.Windows.Forms.Button();
+            this.tb_fname = new System.Windows.Forms.TextBox();
+            this.bt_createmaze = new System.Windows.Forms.Button();
+            this.Exitexe = new System.Windows.Forms.Button();
+            this.tb_MazeQueue = new System.Windows.Forms.TextBox();
+            this.tb_maze_matrix = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_maze)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mazepath)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pb_maze
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(365, 412);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pb_maze.Location = new System.Drawing.Point(9, 4);
+            this.pb_maze.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_maze.Name = "pb_maze";
+            this.pb_maze.Size = new System.Drawing.Size(243, 275);
+            this.pb_maze.TabIndex = 0;
+            this.pb_maze.TabStop = false;
             // 
-            // pictureBox2
+            // pb_mazepath
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(364, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(365, 412);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pb_mazepath.Location = new System.Drawing.Point(249, 4);
+            this.pb_mazepath.Margin = new System.Windows.Forms.Padding(2);
+            this.pb_mazepath.Name = "pb_mazepath";
+            this.pb_mazepath.Size = new System.Drawing.Size(243, 275);
+            this.pb_mazepath.TabIndex = 1;
+            this.pb_mazepath.TabStop = false;
             // 
-            // richTextBox1
+            // bt_openfile
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(2, 421);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(366, 364);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.bt_openfile.Location = new System.Drawing.Point(262, 289);
+            this.bt_openfile.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_openfile.Name = "bt_openfile";
+            this.bt_openfile.Size = new System.Drawing.Size(216, 53);
+            this.bt_openfile.TabIndex = 4;
+            this.bt_openfile.Text = "选择迷宫矩阵文件";
+            this.bt_openfile.UseVisualStyleBackColor = true;
+            this.bt_openfile.Click += new System.EventHandler(this.bt_openfile_Click);
             // 
-            // bt_openfile_Click
+            // tb_fname
             // 
-            this.bt_openfile_Click.Location = new System.Drawing.Point(386, 433);
-            this.bt_openfile_Click.Name = "bt_openfile_Click";
-            this.bt_openfile_Click.Size = new System.Drawing.Size(324, 79);
-            this.bt_openfile_Click.TabIndex = 4;
-            this.bt_openfile_Click.Text = "选择迷宫矩阵文件";
-            this.bt_openfile_Click.UseVisualStyleBackColor = true;
-            this.bt_openfile_Click.Click += new System.EventHandler(this.bt_openfile_Click_Click);
+            this.tb_fname.Location = new System.Drawing.Point(262, 356);
+            this.tb_fname.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_fname.Name = "tb_fname";
+            this.tb_fname.Size = new System.Drawing.Size(216, 21);
+            this.tb_fname.TabIndex = 5;
             // 
-            // textBox2
+            // bt_createmaze
             // 
-            this.textBox2.Location = new System.Drawing.Point(386, 528);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(328, 28);
-            this.textBox2.TabIndex = 5;
+            this.bt_createmaze.Location = new System.Drawing.Point(262, 398);
+            this.bt_createmaze.Margin = new System.Windows.Forms.Padding(2);
+            this.bt_createmaze.Name = "bt_createmaze";
+            this.bt_createmaze.Size = new System.Drawing.Size(216, 43);
+            this.bt_createmaze.TabIndex = 6;
+            this.bt_createmaze.Text = "生成迷宫矩阵并求其最短路径";
+            this.bt_createmaze.UseVisualStyleBackColor = true;
+            this.bt_createmaze.Click += new System.EventHandler(this.bt_createmaze_Click);
             // 
-            // bt_createmaze_Click
+            // Exitexe
             // 
-            this.bt_createmaze_Click.Location = new System.Drawing.Point(386, 571);
-            this.bt_createmaze_Click.Name = "bt_createmaze_Click";
-            this.bt_createmaze_Click.Size = new System.Drawing.Size(324, 64);
-            this.bt_createmaze_Click.TabIndex = 6;
-            this.bt_createmaze_Click.Text = "生成迷宫矩阵并求其最短路径";
-            this.bt_createmaze_Click.UseVisualStyleBackColor = true;
-            this.bt_createmaze_Click.Click += new System.EventHandler(this.bt_createmaze_Click_Click);
+            this.Exitexe.Location = new System.Drawing.Point(540, 461);
+            this.Exitexe.Margin = new System.Windows.Forms.Padding(2);
+            this.Exitexe.Name = "Exitexe";
+            this.Exitexe.Size = new System.Drawing.Size(135, 53);
+            this.Exitexe.TabIndex = 7;
+            this.Exitexe.Text = "退出";
+            this.Exitexe.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // tb_MazeQueue
             // 
-            this.button3.Location = new System.Drawing.Point(810, 692);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(202, 80);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "退出";
-            this.button3.UseVisualStyleBackColor = true;
+            this.tb_MazeQueue.Location = new System.Drawing.Point(496, 4);
+            this.tb_MazeQueue.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_MazeQueue.Multiline = true;
+            this.tb_MazeQueue.Name = "tb_MazeQueue";
+            this.tb_MazeQueue.Size = new System.Drawing.Size(229, 449);
+            this.tb_MazeQueue.TabIndex = 8;
             // 
-            // textBox1
+            // tb_maze_matrix
             // 
-            this.textBox1.Location = new System.Drawing.Point(720, 6);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(366, 671);
-            this.textBox1.TabIndex = 8;
+            this.tb_maze_matrix.Location = new System.Drawing.Point(9, 283);
+            this.tb_maze_matrix.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_maze_matrix.Multiline = true;
+            this.tb_maze_matrix.Name = "tb_maze_matrix";
+            this.tb_maze_matrix.Size = new System.Drawing.Size(244, 241);
+            this.tb_maze_matrix.TabIndex = 9;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1086, 784);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.bt_createmaze_Click);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.bt_openfile_Click);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(724, 523);
+            this.Controls.Add(this.tb_maze_matrix);
+            this.Controls.Add(this.tb_MazeQueue);
+            this.Controls.Add(this.Exitexe);
+            this.Controls.Add(this.bt_createmaze);
+            this.Controls.Add(this.tb_fname);
+            this.Controls.Add(this.bt_openfile);
+            this.Controls.Add(this.pb_mazepath);
+            this.Controls.Add(this.pb_maze);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_maze)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mazepath)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,14 +143,14 @@ namespace Queue
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button bt_openfile_Click;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button bt_createmaze_Click;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.PictureBox pb_maze;
+        private System.Windows.Forms.PictureBox pb_mazepath;
+        private System.Windows.Forms.Button bt_openfile;
+        private System.Windows.Forms.TextBox tb_fname;
+        private System.Windows.Forms.Button bt_createmaze;
+        private System.Windows.Forms.Button Exitexe;
+        private System.Windows.Forms.TextBox tb_MazeQueue;
+        private System.Windows.Forms.TextBox tb_maze_matrix;
     }
 }
 

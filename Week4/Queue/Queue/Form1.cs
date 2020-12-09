@@ -23,7 +23,7 @@ namespace Queue
 
         }
 
-        private void bt_openfile_Click_Click(object sender, EventArgs e)
+        private void bt_openfile_Click(object sender, EventArgs e)
         {
             OpenFileDialog dlg = new OpenFileDialog();
             string str = "..\\..\\data\\";
@@ -42,11 +42,9 @@ namespace Queue
                 bt_savefile1.Enabled = false;
         }
 
-        private void bt_createmaze_Click_Click(object sender, EventArgs e)
+        private void bt_createmaze_Click(object sender, EventArgs e)
         {
-            ljcs = 1;
-            m_maze = new CMaze(tb_maze_matrix.Text);//调⽤CMaze类，输⼊为⽂本形式
-            int len = m_maze.ShortPath(ljcs);
+            m_maze = new CMaze(tb_maze_matrix.Text);  //调用CMaze类，输入为文本形式
             DrawMaze(m_maze, false);
             m_maze.ShortPath();
             DrawMaze(m_maze, true);
@@ -131,5 +129,7 @@ namespace Queue
                 }
             }
         }
+
+     
     }
 }
