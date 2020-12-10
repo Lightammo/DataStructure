@@ -46,7 +46,7 @@ namespace Queue
         {
             m_maze = new CMaze(tb_maze_matrix.Text);  //调用CMaze类，输入为文本形式
             DrawMaze(m_maze, false);
-            m_maze.ShortPath(0);
+            m_maze.ShortPath(1);
             DrawMaze(m_maze, true);
             tb_MazeQueue.Text = m_maze.PrintMazeQueue();
         }

@@ -115,7 +115,7 @@ namespace Queue
             sq.In(temp);
             Setelems(1, 1, -1);
             Random ran = new Random();
-            int kr = ran.Next(8);
+            int kr = ran.Next(8);//随机取八个方向一个点
             while (!sq.IsEmpty())//队不空时循环
             {
                 temp = sq.Getfront();//取队头
