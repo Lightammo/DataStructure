@@ -134,5 +134,10 @@ namespace Queue
         {
 
         }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();//退出程序
+        }
     }
 }

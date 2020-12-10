@@ -34,7 +34,7 @@ namespace Queue
             this.bt_openfile = new System.Windows.Forms.Button();
             this.tb_fname = new System.Windows.Forms.TextBox();
             this.bt_createmaze = new System.Windows.Forms.Button();
-            this.Exitexe = new System.Windows.Forms.Button();
+            this.Exit = new System.Windows.Forms.Button();
             this.tb_MazeQueue = new System.Windows.Forms.TextBox();
             this.tb_maze_matrix = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -90,15 +90,16 @@ namespace Queue
             this.bt_createmaze.UseVisualStyleBackColor = true;
             this.bt_createmaze.Click += new System.EventHandler(this.bt_createmaze_Click);
             // 
-            // Exitexe
+            // Exit
             // 
-            this.Exitexe.Location = new System.Drawing.Point(540, 461);
-            this.Exitexe.Margin = new System.Windows.Forms.Padding(2);
-            this.Exitexe.Name = "Exitexe";
-            this.Exitexe.Size = new System.Drawing.Size(135, 53);
-            this.Exitexe.TabIndex = 7;
-            this.Exitexe.Text = "退出";
-            this.Exitexe.UseVisualStyleBackColor = true;
+            this.Exit.Location = new System.Drawing.Point(540, 461);
+            this.Exit.Margin = new System.Windows.Forms.Padding(2);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(135, 53);
+            this.Exit.TabIndex = 7;
+            this.Exit.Text = "退出";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // tb_MazeQueue
             // 
@@ -126,7 +127,7 @@ namespace Queue
             this.ClientSize = new System.Drawing.Size(724, 523);
             this.Controls.Add(this.tb_maze_matrix);
             this.Controls.Add(this.tb_MazeQueue);
-            this.Controls.Add(this.Exitexe);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.bt_createmaze);
             this.Controls.Add(this.tb_fname);
             this.Controls.Add(this.bt_openfile);
@@ -150,7 +151,7 @@ namespace Queue
         private System.Windows.Forms.Button bt_openfile;
         private System.Windows.Forms.TextBox tb_fname;
         private System.Windows.Forms.Button bt_createmaze;
-        private System.Windows.Forms.Button Exitexe;
+        private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.TextBox tb_MazeQueue;
         private System.Windows.Forms.TextBox tb_maze_matrix;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
