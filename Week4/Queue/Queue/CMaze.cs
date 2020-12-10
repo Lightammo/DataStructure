@@ -22,17 +22,39 @@ namespace Queue
         static moved[] move = new moved[8];
         private string mazetext;
 
-        public CMaze()
+        public CMaze(string strmazedata)
         {
+            int i, j, dd, know;
+            know = 0;
+            if (strmazedata == "")
+            {
+                rows = cols = 0;
+                return;
+            }
+            rows = GetIntData(strmazedata, know, out know);
+            cols = GetIntData(strmazedata, know, out know);
+            elems = new int[(rows + 2), (cols + 2)];
+            for (i = 1; i <= rows; i++)
+            {
+                for (j = 1; j <= cols; j++)
+                {
+                    dd = GetIntData(strmazedata, know, out know);
+                    elems[i, j] = dd;
+                }
+            }
+            for (i = 0; i <= rows + 1; i++)
+            {
+                elems[i, 0] = 1;
+                elems[i, cols + 1] = 1;
+            }
+            for (j = 0; j <= cols + 1; j++)
+            {
+                elems[0, j] = 1;
+                elems[rows + 1, j] = 1;
+            }
         }
 
 
-        public CMaze(string mazetext)
-        {
-            this.mazetext = mazetext;
-        }
-
-       
 
         public int Rows
         {
@@ -64,16 +86,14 @@ namespace Queue
             return (data);
         }
         //自己写Getelems,Setelems
-        public int Getelems(int i,int j)
+        public int Getelems(int row, int col)
         {
-
-            return 0;
+            return elems[row, col];
         }
 
-        public int Setelems(int i, int j,int n)
+        public void Setelems(int row, int col, int value)
         {
-
-            return 0;
+            elems[row, col] = value;
         }
 
 

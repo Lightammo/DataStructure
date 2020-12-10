@@ -37,6 +37,7 @@ namespace Queue
             this.Exitexe = new System.Windows.Forms.Button();
             this.tb_MazeQueue = new System.Windows.Forms.TextBox();
             this.tb_maze_matrix = new System.Windows.Forms.TextBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pb_maze)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mazepath)).BeginInit();
             this.SuspendLayout();
@@ -116,6 +117,7 @@ namespace Queue
             this.tb_maze_matrix.Name = "tb_maze_matrix";
             this.tb_maze_matrix.Size = new System.Drawing.Size(244, 241);
             this.tb_maze_matrix.TabIndex = 9;
+            this.tb_maze_matrix.TextChanged += new System.EventHandler(this.tb_maze_matrix_TextChanged);
             // 
             // Form1
             // 
@@ -151,6 +153,7 @@ namespace Queue
         private System.Windows.Forms.Button Exitexe;
         private System.Windows.Forms.TextBox tb_MazeQueue;
         private System.Windows.Forms.TextBox tb_maze_matrix;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

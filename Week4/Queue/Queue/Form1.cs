@@ -18,7 +18,7 @@ namespace Queue
             InitializeComponent();
         }
 
-        CMaze m_maze = new CMaze();
+        private CMaze m_maze = new CMaze("");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -39,14 +39,14 @@ namespace Queue
                 tb_maze_matrix.Text = sr.ReadToEnd();
                 sr.Close();
             }
+
         }
-          
+
         private void bt_createmaze_Click(object sender, EventArgs e)
         {
-            int ljcs = 1;
             m_maze = new CMaze(tb_maze_matrix.Text);  //调用CMaze类，输入为文本形式
             DrawMaze(m_maze, false);
-            m_maze.ShortPath(ljcs);
+            m_maze.ShortPath(0);
             DrawMaze(m_maze, true);
             tb_MazeQueue.Text = m_maze.PrintMazeQueue();
         }
@@ -130,6 +130,9 @@ namespace Queue
             }
         }
 
-     
+        private void tb_maze_matrix_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
