@@ -18,6 +18,8 @@ namespace Queue
             InitializeComponent();
         }
 
+        CMaze m_maze = new CMaze();
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -36,17 +38,15 @@ namespace Queue
                 StreamReader sr = new StreamReader(tb_fname.Text);
                 tb_maze_matrix.Text = sr.ReadToEnd();
                 sr.Close();
-                bt_savefile1.Enabled = true;
             }
-            else
-                bt_savefile1.Enabled = false;
         }
-
+          
         private void bt_createmaze_Click(object sender, EventArgs e)
         {
+            int ljcs = 1;
             m_maze = new CMaze(tb_maze_matrix.Text);  //调用CMaze类，输入为文本形式
             DrawMaze(m_maze, false);
-            m_maze.ShortPath();
+            m_maze.ShortPath(ljcs);
             DrawMaze(m_maze, true);
             tb_MazeQueue.Text = m_maze.PrintMazeQueue();
         }

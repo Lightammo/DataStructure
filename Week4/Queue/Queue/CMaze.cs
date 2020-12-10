@@ -20,16 +20,32 @@ namespace Queue
         private int[,] elems;
         private CQueue<sqtype> sq;
         static moved[] move = new moved[8];
+        private string mazetext;
+
+        public CMaze()
+        {
+        }
+
+
+        public CMaze(string mazetext)
+        {
+            this.mazetext = mazetext;
+        }
+
+       
+
         public int Rows
         {
             get { return rows; }
             set { rows = value; }
         }
+
         public int Cols
         {
             get { return cols; }
             set { cols = value; }
         }
+
         public int GetIntData(string strdata, int ks, out int outk)//out 返回
         {
             int len = strdata.Length;
@@ -48,10 +64,16 @@ namespace Queue
             return (data);
         }
         //自己写Getelems,Setelems
-        public int Getelems(int cs)
+        public int Getelems(int i,int j)
         {
 
-            return pre;
+            return 0;
+        }
+
+        public int Setelems(int i, int j,int n)
+        {
+
+            return 0;
         }
 
 

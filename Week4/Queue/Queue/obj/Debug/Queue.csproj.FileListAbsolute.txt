@@ -8,3 +8,8 @@ F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Que
 F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
 F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
 F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.exe.config
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.pdb
