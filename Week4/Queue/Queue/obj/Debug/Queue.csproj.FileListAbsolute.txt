@@ -13,3 +13,13 @@ F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\bin\Debug\Que
 F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.pdb
 F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.exe
 F:\User\Documents\Vs2019_workplace\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.pdb
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.exe.config
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.exe
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\bin\Debug\Queue.pdb
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.Form1.resources
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.Properties.Resources.resources
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csproj.GenerateResource.cache
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.exe
+C:\Users\78633\source\repos\ds\DataStructure\Week4\Queue\Queue\obj\Debug\Queue.pdb
