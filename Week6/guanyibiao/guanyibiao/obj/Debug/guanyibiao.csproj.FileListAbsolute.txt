@@ -1,0 +1,10 @@
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\bin\Debug\guanyibiao.exe.config
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\bin\Debug\guanyibiao.exe
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\bin\Debug\guanyibiao.pdb
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csprojAssemblyReference.cache
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.Form1.resources
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.Properties.Resources.resources
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csproj.GenerateResource.cache
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csproj.CoreCompileInputs.cache
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.exe
+C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.pdb

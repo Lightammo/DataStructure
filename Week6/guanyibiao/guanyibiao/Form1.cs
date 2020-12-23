@@ -16,18 +16,15 @@ namespace guanyibiao
         {
             InitializeComponent();
         }
+        private CGenList cg = new CGenList();
 
-        public void CreateGL(string strin,out string strout)
+        private void button1_Click(object sender, EventArgs e)
         {
-            if (head.tnext != null)
-                MakeEmpty(out strout);
-            string tstr;
-            strout = "输入字符串=";
-            tstr = strin;
-            strout += tstr + "\r\n";
-            strout = "广义表的创建\r\n";
-            ClinkStack<CGenListnode> stp = new CLinkStack<CGenListnode>();
-
+            string s = textBox1.Text;
+            cg.CreateGL(s, out s);
+            richTextBox1.Text = s;
+            radioButton1.Checked = true;
+            radioButton2.Checked = false;
         }
     }
 }

@@ -30,12 +30,12 @@ namespace guanyibiao
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.button3 = new System.Windows.Forms.Button();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
@@ -56,41 +56,14 @@ namespace guanyibiao
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "操作";
             // 
-            // textBox1
+            // button3
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1076, 28);
-            this.textBox1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(45, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(237, 75);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "创建广义表";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(45, 143);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(238, 76);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "将广义表倒置转换";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(97, 276);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(123, 22);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "原始广义表";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(45, 443);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(237, 87);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "打印广义表";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
@@ -103,14 +76,43 @@ namespace guanyibiao
             this.radioButton2.Text = "转换后广义表";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // radioButton1
             // 
-            this.button3.Location = new System.Drawing.Point(45, 443);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(237, 87);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "打印广义表";
-            this.button3.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(97, 276);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(123, 22);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "原始广义表";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(45, 143);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(238, 76);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "将广义表倒置转换";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(45, 51);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(237, 75);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "创建广义表";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(7, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1076, 28);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "((2.345,(\'B\',7/3,(),((),\"到此一游\"))),(\"ASD\"),(\'A\',2/4,3,1.23))";
             // 
             // groupBox2
             // 
