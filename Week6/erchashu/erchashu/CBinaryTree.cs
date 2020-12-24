@@ -16,6 +16,7 @@ namespace erchashu
             treeroot = null;
         }
         CBinaryTreenode<char> treeroot;
+
         public void CreateBinTreestr(string binitreestr)//根据字符串生成二叉树
         {
             if (treeroot != null)
@@ -190,6 +191,8 @@ namespace erchashu
                 }
             }
         }
+        
+        
 
         public void Traversal(int k, out string m_strout)
         {

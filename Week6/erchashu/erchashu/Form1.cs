@@ -30,5 +30,26 @@ namespace erchashu
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string shuchu = "";
+            if (radioButton1.Checked)
+                bt.Traversal(0, out shuchu);
+            if (radioButton2.Checked)
+                bt.Traversal(1, out shuchu);
+            else if (radioButton3.Checked)
+                bt.Traversal(2, out shuchu);
+            else if (radioButton4.Checked)
+                bt.Traversal(3, out shuchu);
+           
+            int length = shuchu.Length;
+            Graphics g = pictureBox1.CreateGraphics();
+            Brush bkbrush = new SolidBrush(Color.White);//背景色
+            g.FillRectangle(bkbrush, 10, 10, 10 * length, 15);
+            Font f = new Font("Arial", 10);
+            Brush bb = new SolidBrush(Color.Red);
+            g.DrawString(shuchu, f, bb, 10, 10);
+        }
     }
 }
