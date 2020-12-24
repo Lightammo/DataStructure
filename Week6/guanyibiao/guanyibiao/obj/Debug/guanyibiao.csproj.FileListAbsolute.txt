@@ -8,3 +8,13 @@ C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Deb
 C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csproj.CoreCompileInputs.cache
 C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.exe
 C:\Users\78633\source\repos\ds\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\bin\Debug\guanyibiao.exe.config
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\bin\Debug\guanyibiao.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\bin\Debug\guanyibiao.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csprojAssemblyReference.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.Form1.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.Properties.Resources.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csproj.GenerateResource.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\guanyibiao\guanyibiao\obj\Debug\guanyibiao.pdb

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CBinaryTree.cs" />
+    <Compile Include="CBinaryTreenode.cs" />
     <Compile Include="CLinkStack.cs" />
     <Compile Include="CQueue.cs" />
     <Compile Include="CSeqStack.cs" />

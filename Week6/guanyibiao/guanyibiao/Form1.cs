@@ -12,6 +12,7 @@ namespace guanyibiao
 {
     public partial class Form1 : Form
     {
+        CLinkStack<CGenListnode> stp = new CLinkStack<CGenListnode>();
         public Form1()
         {
             InitializeComponent();

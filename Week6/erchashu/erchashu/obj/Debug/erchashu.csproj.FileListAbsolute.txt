@@ -1,0 +1,10 @@
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.csprojAssemblyReference.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.Form1.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.Properties.Resources.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.csproj.GenerateResource.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\bin\Debug\erchashu.exe.config
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\bin\Debug\erchashu.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\bin\Debug\erchashu.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week6\erchashu\erchashu\obj\Debug\erchashu.pdb
