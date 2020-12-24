@@ -17,31 +17,32 @@ namespace erchashu
         }
         CBinaryTreenode<char> treeroot;
 
-        public void CreateBinTreestr(string binitreestr)//根据字符串生成二叉树
+        public void CreateBinTreestr(string bintreestr)//根据字符串生成二叉树表
         {
             if (treeroot != null)
                 treeroot = null;
             string strt = "1234567890+-*/";
             char ch, chlr = ' ';
-            CLinkStack<CBinaryTreenode<char>> mystack = new CLinkStack<CBinaryTreenode<char>>();//设置栈
+            CLinkStack<CBinaryTreenode<char>> mystack = new CLinkStack<CBinaryTreenode<char>>();
             CBinaryTreenode<char> stp, stpnew;//存放栈顶的返回值
             stpnew = null;
-            int n = binitreestr.Length;
+            int n = bintreestr.Length;
             for (int i = 0; i < n; i++)
             {
-                ch = binitreestr[i];
+                ch = bintreestr[i];
                 if (((ch >= 'A') && (ch <= 'Z')) || ((ch >= 'a') && (ch <= 'z')) || (strt.IndexOf(ch) >= 0))
                 {
-                    stp = mystack.Gettop();//取栈顶x
+                    //取栈顶
+                    stp = mystack.Gettop();
                     //创建节点并于栈顶链接
                     stpnew = new CBinaryTreenode<char>(ch);
                     if (stp == null)
                         treeroot = stpnew;
                     else
                     {
-                        if (chlr == 'I') 
+                        if (chlr == 'l')
                             stp.lchild = stpnew;
-                        else 
+                        else
                             stp.rchild = stpnew;
                     }
                 }
@@ -53,7 +54,7 @@ namespace erchashu
                 else if (ch == ',')
                     chlr = 'r';//设置左右
                 else if (ch == ')')
-                    mystack.Pop();//入栈
+                    mystack.Pop();//出栈
             }
         }
         public void DrawBTree(PictureBox pb_bstree)

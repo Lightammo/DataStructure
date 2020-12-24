@@ -49,6 +49,7 @@ namespace erchashu
             this.bintreestr.Name = "bintreestr";
             this.bintreestr.Size = new System.Drawing.Size(339, 21);
             this.bintreestr.TabIndex = 0;
+            this.bintreestr.Text = "A(B(C,D(E(F),G(,H))),I(,J(K)))";
             // 
             // textBox2
             // 
@@ -93,6 +94,7 @@ namespace erchashu
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(557, 5);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
