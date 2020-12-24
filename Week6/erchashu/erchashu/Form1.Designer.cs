@@ -43,23 +43,26 @@ namespace erchashu
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 2);
+            this.textBox1.Location = new System.Drawing.Point(2, 1);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(506, 28);
+            this.textBox1.Size = new System.Drawing.Size(339, 21);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(3, 36);
+            this.textBox2.Location = new System.Drawing.Point(2, 24);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(506, 28);
+            this.textBox2.Size = new System.Drawing.Size(339, 21);
             this.textBox2.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(515, 12);
+            this.button1.Location = new System.Drawing.Point(343, 8);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 36);
+            this.button1.Size = new System.Drawing.Size(79, 24);
             this.button1.TabIndex = 2;
             this.button1.Text = "生成二叉树1";
             this.button1.UseVisualStyleBackColor = true;
@@ -67,18 +70,20 @@ namespace erchashu
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(640, 12);
+            this.button2.Location = new System.Drawing.Point(427, 8);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 36);
+            this.button2.Size = new System.Drawing.Size(79, 24);
             this.button2.TabIndex = 3;
             this.button2.Text = "生成二叉树2";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(765, 12);
+            this.button3.Location = new System.Drawing.Point(510, 8);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(65, 36);
+            this.button3.Size = new System.Drawing.Size(43, 24);
             this.button3.TabIndex = 4;
             this.button3.Text = "遍历";
             this.button3.UseVisualStyleBackColor = true;
@@ -86,9 +91,10 @@ namespace erchashu
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(836, 8);
+            this.radioButton1.Location = new System.Drawing.Point(557, 5);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(69, 22);
+            this.radioButton1.Size = new System.Drawing.Size(47, 16);
             this.radioButton1.TabIndex = 5;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "层次";
@@ -97,9 +103,10 @@ namespace erchashu
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(908, 8);
+            this.radioButton2.Location = new System.Drawing.Point(605, 5);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(69, 22);
+            this.radioButton2.Size = new System.Drawing.Size(47, 16);
             this.radioButton2.TabIndex = 6;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "中序";
@@ -108,9 +115,10 @@ namespace erchashu
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(836, 36);
+            this.radioButton3.Location = new System.Drawing.Point(557, 24);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(69, 22);
+            this.radioButton3.Size = new System.Drawing.Size(47, 16);
             this.radioButton3.TabIndex = 7;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "先序";
@@ -119,9 +127,10 @@ namespace erchashu
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(908, 36);
+            this.radioButton4.Location = new System.Drawing.Point(605, 24);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(69, 22);
+            this.radioButton4.Size = new System.Drawing.Size(47, 16);
             this.radioButton4.TabIndex = 8;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "后序";
@@ -129,17 +138,18 @@ namespace erchashu
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(3, 70);
+            this.richTextBox1.Location = new System.Drawing.Point(2, 47);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(985, 663);
+            this.richTextBox1.Size = new System.Drawing.Size(658, 443);
             this.richTextBox1.TabIndex = 9;
             this.richTextBox1.Text = "";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(989, 735);
+            this.ClientSize = new System.Drawing.Size(659, 490);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.radioButton4);
             this.Controls.Add(this.radioButton3);
@@ -150,8 +160,10 @@ namespace erchashu
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+         
             this.ResumeLayout(false);
             this.PerformLayout();
 

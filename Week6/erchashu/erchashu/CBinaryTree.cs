@@ -15,8 +15,7 @@ namespace erchashu
         { lchild = rchild = null; }
         public CBinaryTreenode (Type item)
         { data = item;lchild = rchild = null; }
-        public CBinaryTreenode(Type item,
-            CBinaryTreenode<Type>lc,CBinaryTreenode<Type>rc)
+        public CBinaryTreenode (Type item,CBinaryTreenode<Type>lc,CBinaryTreenode<Type>rc)
         {
             data = item;
             lchild = lc;rchild = rc;
@@ -30,7 +29,7 @@ namespace erchashu
             if (treeroot != null)
                 treeroot = null;
             string strt = "1234567890+-*/";
-            char ch, chlr = '';
+            char ch, chlr = ' ';
             CLinkStack<CBinaryTreenode<char>> mystack = new CLinkStack<CBinaryTreenode<char>>();//设置栈
             CBinaryTreenode<char> stp, stpnew;//存放栈顶的返回值
             stpnew = null;
@@ -47,7 +46,7 @@ namespace erchashu
                         treeroot = stpnew;
                     else
                     {
-                        if(chlr=='I') 
+                        if (chlr == 'I') ;
                     }
                 }
             }
