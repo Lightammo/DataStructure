@@ -429,7 +429,7 @@ namespace paixu
                 SIFT(data, 1, i - 1, k);
             }
             for (i = 0; i < datanumber; i++)
-                sortpast[i] = data[i];
+                sortpast[i] = data[i+1];
         }
         public void SIFT(int[] r, int i, int m, int k)
         {
@@ -457,19 +457,7 @@ namespace paixu
                 }
                 else
                 {
-                    if ((j < m) && (r[j] > r[j + 1]))
-                        j++;
-                    if (j < m)
-                        sortmethods[6].compare++;
-                    sortmethods[6].compare++;
-                    if (temp > r[j])
-                    {
-                        r[i] = r[j];
-                        i = j; j = 2 * i;
-                        sortmethods[6].move++;
-                    }
-                    else
-                        break;
+                   
                 }
             }
             r[i] = temp;

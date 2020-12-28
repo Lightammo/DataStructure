@@ -191,6 +191,7 @@ namespace paixu
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "降序";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -202,6 +203,7 @@ namespace paixu
             this.radioButton4.TabIndex = 0;
             this.radioButton4.Text = "升序";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // groupBox3
             // 

@@ -77,18 +77,15 @@ namespace paixu
                 data = new int[n];
                 for (int i = 0; i < n; i++)
                     index[i] = i + 1;
-                Random r = new Random();
+                Random random = new Random();
                 //用来保存随机生成的不重复的10个数
                 int site = n;//设置下限
                 int id;
                 for (int j = 0; j < n; j++)
                 {
-                    id = r.Next(0, site - 1);
-                    //在随机位置取出一个数，保存到结果数组
-                    data[j] = index[id];
-                    //最后一个数复制到当前位置
-                    index[id] = index[site - 1];
-                    //位置的下限减少一
+                    id = random.Next(0, site - 1);//在随机位置取出一个数，保存到结果数组
+                    data[j] = index[id];//最后一个数复制到当前位置
+                    index[id] = index[site - 1];//位置的下限减少一
                     site--;
                 }
             }
@@ -109,9 +106,9 @@ namespace paixu
                 my_sort.Paixu_2(k);
                 my_sort.Paixu_3(k);
                 //my_sort.Paixu_4(k);
-                my_sort.Paixu_5(k);
-                my_sort.Paixu_6(k);
-                if (radioButton3.Checked == true)
+               // my_sort.Paixu_5(k);
+                //my_sort.Paixu_6(k);
+                if (radioButton6.Checked == true)
                     my_sort.TableShow(dataGridView1, 1);
                 else
                     my_sort.TableShow(dataGridView1, 2);
@@ -135,6 +132,16 @@ namespace paixu
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
             my_sort.TableShow(dataGridView1, 2);
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
