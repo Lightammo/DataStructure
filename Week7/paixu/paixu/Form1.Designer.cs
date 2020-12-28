@@ -69,6 +69,7 @@ namespace paixu
             this.dataGridView1.RowTemplate.Height = 30;
             this.dataGridView1.Size = new System.Drawing.Size(472, 208);
             this.dataGridView1.TabIndex = 0;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
@@ -103,6 +104,7 @@ namespace paixu
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(105, 21);
             this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "100";
             // 
             // button1
             // 
@@ -123,7 +125,6 @@ namespace paixu
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(47, 16);
             this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "随机";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
@@ -135,13 +136,13 @@ namespace paixu
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(47, 16);
             this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "降序";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(22, 25);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
@@ -181,6 +182,7 @@ namespace paixu
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
+            this.radioButton5.Checked = true;
             this.radioButton5.Location = new System.Drawing.Point(14, 46);
             this.radioButton5.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton5.Name = "radioButton5";
@@ -198,7 +200,6 @@ namespace paixu
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(47, 16);
             this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "升序";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
@@ -218,6 +219,7 @@ namespace paixu
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
+            this.radioButton7.Checked = true;
             this.radioButton7.Location = new System.Drawing.Point(104, 26);
             this.radioButton7.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton7.Name = "radioButton7";
@@ -236,7 +238,6 @@ namespace paixu
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(95, 16);
             this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
             this.radioButton6.Text = "显示原始数据";
             this.radioButton6.UseVisualStyleBackColor = true;
             this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
@@ -262,13 +263,13 @@ namespace paixu
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(71, 16);
             this.radioButton9.TabIndex = 1;
-            this.radioButton9.TabStop = true;
             this.radioButton9.Text = "移动次数";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
+            this.radioButton8.Checked = true;
             this.radioButton8.Location = new System.Drawing.Point(4, 18);
             this.radioButton8.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton8.Name = "radioButton8";

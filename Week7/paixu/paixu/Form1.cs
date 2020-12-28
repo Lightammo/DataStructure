@@ -55,54 +55,44 @@ namespace paixu
             //my_sort = new Array_sort(int.Parse(textBox1.Text),, dataGridView1));
             //my_sort.SetTable(dataGridView1, 60);
         }
-        public int[] getRandomNum(int num, int minValue, int maxValue)
-        {
-            Random ra = new Random(unchecked((int)DateTime.Now.Ticks));
-            int[] arrNum = new int[num];
-            int tmp = 0;
-            for (int i = 0; i <= num - 1; i++)
-            {
-                tmp = ra.Next(minValue, maxValue); //随机取数
-                arrNum[i] = getNum(arrNum, tmp, minValue, maxValue, ra); //取出值赋到数组中
-            }
-            return arrNum;
-        }
-
-        public int getNum(int[] arrNum, int tmp, int minValue, int maxValue, Random ra)
-        {
-            int n = 0;
-            while (n <= arrNum.Length - 1)
-            {
-                if (arrNum[n] == tmp) //利用循环判断是否有重复
-                {
-                    tmp = ra.Next(minValue, maxValue); //重新随机获取。
-                    getNum(arrNum, tmp, minValue, maxValue, ra);//递归:如果取出来的数字和已取得的数字有重复就重新随机获取。
-                }
-                n++;
-            }
-            return tmp;
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-                int n = int.Parse(textBox1.Text);
-                if (radioButton1.Checked == true)
+            n = int.Parse(textBox1.Text);
+            if (radioButton1.Checked == true)
+            {
+                data = new int[n];
+                for (int i = 0; i < n; i++)
+                    data[i] = i + 1;
+            }
+            else if (radioButton2.Checked == true)
+            {
+                data = new int[n];
+                for (int i = n; i > 0; i--)
+                    data[n - i] = i;
+            }
+            else
+            {
+                int[] index = new int[n];
+                data = new int[n];
+                for (int i = 0; i < n; i++)
+                    index[i] = i + 1;
+                Random r = new Random();
+                //用来保存随机生成的不重复的10个数
+                int site = n;//设置下限
+                int id;
+                for (int j = 0; j < n; j++)
                 {
-                    data = new int[n];
-                    for (int i = 0; i < n; i++)
-                        data[i] = i + 1;
+                    id = r.Next(0, site - 1);
+                    //在随机位置取出一个数，保存到结果数组
+                    data[j] = index[id];
+                    //最后一个数复制到当前位置
+                    index[id] = index[site - 1];
+                    //位置的下限减少一
+                    site--;
                 }
-                else if (radioButton2.Checked == true)
-                {
-                    data = new int[n];
-                    for (int i = n; i > 0; i--)
-                        data[i] = i;
-                }
-                else
-                {
-                    data = getRandomNum(n, 1, n);
-                }
-                my_sort = new Array_sort(n, data, dataGridView1);
+            }
+            my_sort = new Array_sort(n, data, dataGridView1);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -137,16 +127,14 @@ namespace paixu
             this.Close();
         }
 
-
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
-            
-            
+            my_sort.TableShow(dataGridView1, 1);
         }
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
-
+            my_sort.TableShow(dataGridView1, 2);
         }
     }
 }
