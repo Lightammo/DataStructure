@@ -152,6 +152,7 @@ namespace SJKS20S30
             this.button3.TabIndex = 2;
             this.button3.Text = "生成二叉树";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // radioButton2
             // 
@@ -185,7 +186,6 @@ namespace SJKS20S30
             this.richTextBox1.Size = new System.Drawing.Size(488, 117);
             this.richTextBox1.TabIndex = 7;
             this.richTextBox1.Text = "";
-
             // 
             // pictureBox1
             // 
@@ -195,6 +195,7 @@ namespace SJKS20S30
             this.pictureBox1.Size = new System.Drawing.Size(381, 329);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
+
             // 
             // button5
             // 

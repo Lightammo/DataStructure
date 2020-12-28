@@ -103,7 +103,14 @@ namespace SJKS20S30
         {
             richTextBox1.Text = Bubble_Sort(number,n);
         }
+        CBinaryTree btree = new CBinaryTree();
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string s = "";
+            s = textBox1.Text;
+            btree.CreateBinTreestr(s);
+            btree.DrawBTree(pictureBox1);
+        }
 
-        
     }
 }
