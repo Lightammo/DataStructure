@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1511FA29-DB8B-45F2-A707-BD85F083F8FF}</ProjectGuid>
+    <ProjectGuid>{B56B6D32-930F-461D-B31A-DC0591DC61A6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Form_Sjks2030</RootNamespace>
-    <AssemblyName>Form_Sjks2030</AssemblyName>
+    <RootNamespace>SJKS20S30</RootNamespace>
+    <AssemblyName>SJKS20S30</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

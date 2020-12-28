@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Form_Sjks2030
+namespace SJKS20S30
 {
-    public partial class Form1 : Form
+    public partial class Form_Sjks2030 : Form
     {
-        public Form1()
+        public Form_Sjks2030()
         {
             InitializeComponent();
         }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Form_Sjks2030")]
+[assembly: AssemblyTitle("SJKS20S30")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Form_Sjks2030")]
+[assembly: AssemblyProduct("SJKS20S30")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("1511fa29-db8b-45f2-a707-bd85f083f8ff")]
+[assembly: Guid("b56b6d32-930f-461d-b31a-dc0591dc61a6")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

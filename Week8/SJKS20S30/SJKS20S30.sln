@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_Sjks2030", "Form_Sjks2030\Form_Sjks2030.csproj", "{1511FA29-DB8B-45F2-A707-BD85F083F8FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJKS20S30", "SJKS20S30\SJKS20S30.csproj", "{B56B6D32-930F-461D-B31A-DC0591DC61A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1511FA29-DB8B-45F2-A707-BD85F083F8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1511FA29-DB8B-45F2-A707-BD85F083F8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1511FA29-DB8B-45F2-A707-BD85F083F8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1511FA29-DB8B-45F2-A707-BD85F083F8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56B6D32-930F-461D-B31A-DC0591DC61A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56B6D32-930F-461D-B31A-DC0591DC61A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56B6D32-930F-461D-B31A-DC0591DC61A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56B6D32-930F-461D-B31A-DC0591DC61A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {87279ED3-EE38-4113-9E10-549337B0AB5E}
+		SolutionGuid = {5A963C12-3717-404B-AFEF-2D78064E3D87}
 	EndGlobalSection
 EndGlobal
