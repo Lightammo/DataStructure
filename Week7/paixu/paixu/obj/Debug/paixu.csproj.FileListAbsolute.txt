@@ -1,0 +1,10 @@
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\bin\Debug\paixu.exe.config
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\bin\Debug\paixu.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\bin\Debug\paixu.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.csprojAssemblyReference.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.Form1.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.Properties.Resources.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.csproj.GenerateResource.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\Week7\paixu\paixu\obj\Debug\paixu.pdb
