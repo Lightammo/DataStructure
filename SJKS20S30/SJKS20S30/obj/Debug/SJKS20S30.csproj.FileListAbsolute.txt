@@ -1,0 +1,10 @@
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.csprojAssemblyReference.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.Properties.Resources.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.csproj.GenerateResource.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.csproj.CoreCompileInputs.cache
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\bin\Debug\SJKS20S30.exe.config
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\bin\Debug\SJKS20S30.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\bin\Debug\SJKS20S30.pdb
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.Form_Sjks2030.resources
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.exe
+F:\User\Documents\Vs2019_workplace\DataStructure\SJKS20S30\SJKS20S30\obj\Debug\SJKS20S30.pdb

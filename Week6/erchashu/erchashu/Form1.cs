@@ -51,5 +51,10 @@ namespace erchashu
             Brush bb = new SolidBrush(Color.Red);
             g.DrawString(shuchu, f, bb, 10, 10);
         }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
