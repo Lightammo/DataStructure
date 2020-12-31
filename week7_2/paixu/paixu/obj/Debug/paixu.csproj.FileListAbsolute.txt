@@ -1,0 +1,10 @@
+C:\Users\78633\source\repos\paixu\paixu\bin\Debug\paixu.exe.config
+C:\Users\78633\source\repos\paixu\paixu\bin\Debug\paixu.exe
+C:\Users\78633\source\repos\paixu\paixu\bin\Debug\paixu.pdb
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.csprojAssemblyReference.cache
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.Form1.resources
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.Properties.Resources.resources
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.csproj.GenerateResource.cache
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.csproj.CoreCompileInputs.cache
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.exe
+C:\Users\78633\source\repos\paixu\paixu\obj\Debug\paixu.pdb
