@@ -81,7 +81,7 @@ namespace paixu
         }
         public void TableShow2(DataGridView dataGridView) //排序统计数据显示（比较次数、移动
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 7; i++)
             {
                 dataGridView[0, i].Value = sortmethods[i].compare;
                 dataGridView[1, i].Value = sortmethods[i].move;
@@ -295,8 +295,99 @@ namespace paixu
         }
 
         //快速排序
-       
 
+        public void Paixu_4(int k)
+        {
+            for (int i=0; i< datanumber; i++)
+            {
+                sortpast[i] = original[i];
+            }
+
+            QuickSort(sortpast, sortpast[0], sortpast[datanumber], k);
+        }
+
+
+        public int Partition(int[] r, int l, int h, int k)
+        {
+            int i, j, temp;
+            i = l; j = h; temp = r[i];
+            sortmethods[4].move++;
+            if (k == 1)
+            {
+                do
+                {
+                    while ((r[j] >= temp) && (i < j))
+                    {
+                        j--;
+                        sortmethods[4].compare++;
+                    }
+                    if (i < j)
+                        sortmethods[4].compare++;
+                    if (i < j)
+                    {
+                        r[i++] = r[j];
+                        sortmethods[4].move++;
+                    }
+                    while ((r[i] <= temp) && (i < j))
+                    {
+                        i++;
+                        sortmethods[4].compare++;
+                    }
+                    if (i < j)
+                        sortmethods[4].compare++;
+                    if (i < j)
+                    {
+                        r[j--] = r[i];
+                        sortmethods[4].move++;
+                    }
+                } while (i != j);
+                r[i] = temp;
+                sortmethods[4].move++;
+            }
+            else
+            {
+                do
+                {
+                    while ((r[j] >= temp) && (i < j))
+                    {
+                        j--;
+                        sortmethods[4].compare++;
+                    }
+                    if (i < j)
+                        sortmethods[4].compare++;
+                    if (i < j)
+                    {
+                        r[i++] = r[j];
+                        sortmethods[4].move++;
+                    }
+                    while ((r[i] >= temp) && (i < j))
+                    {
+                        i++;
+                        sortmethods[4].compare++;
+                    }
+                    if (i < j)
+                        sortmethods[4].compare++;
+                    if (i < j)
+                    {
+                        r[j--] = r[i];
+                        sortmethods[4].move++;
+                    }
+                } while (i != j);
+                r[i] = temp;
+                sortmethods[4].move++;
+            }
+            return i;
+        }
+        public void QuickSort(int[] r, int s1, int t1, int k)
+        {
+            int i;
+            if (s1 < t1)
+            {
+                i = Partition(r, s1, t1, k);
+                QuickSort(r, s1, i - 1, k);
+                QuickSort(r, i + 1, t1, k);
+            }
+        }
 
 
         //选择排序

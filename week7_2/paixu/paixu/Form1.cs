@@ -106,7 +106,7 @@ namespace paixu
                 my_sort.Paixu_1(k);
                 my_sort.Paixu_2(k);
                 my_sort.Paixu_3(k);
-       
+                my_sort.Paixu_4(k);
                 my_sort.Paixu_5(k);
                 my_sort.Paixu_6(k);
                 if (radioButton6.Checked == true)
@@ -114,6 +114,7 @@ namespace paixu
                 else
                     my_sort.TableShow(dataGridView1, 2);
                 my_sort.TableShow2(dataGridView2);
+
             }
         }
 
